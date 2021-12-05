@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/usersepias",
+      "handler": "usersepia.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/usersepias/count",
+      "handler": "usersepia.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/usersepias/:id",
+      "handler": "usersepia.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/usersepias",
+      "handler": "usersepia.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/usersepias/:id",
+      "handler": "usersepia.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/usersepias/:id",
+      "handler": "usersepia.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

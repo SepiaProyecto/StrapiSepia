@@ -1,0 +1,70 @@
+{
+  "kind": "collectionType",
+  "collectionName": "numeros",
+  "info": {
+    "name": "numeros",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombreespanol": {
+      "type": "string"
+    },
+    "nombremixteco": {
+      "type": "string"
+    },
+    "nivel": {
+      "type": "string"
+    },
+    "imagen": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "audio": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "valor2": {
+      "type": "string"
+    },
+    "valor3": {
+      "type": "string"
+    },
+    "valor1": {
+      "type": "string"
+    },
+    "textok": {
+      "type": "string"
+    },
+    "pregunta1": {
+      "type": "string"
+    },
+    "pregunta2": {
+      "type": "string"
+    },
+    "pregunta3": {
+      "type": "string"
+    }
+  }
+}

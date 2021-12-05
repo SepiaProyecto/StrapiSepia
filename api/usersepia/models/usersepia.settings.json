@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "usersepias",
+  "info": {
+    "name": "usersepia"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "apellidop": {
+      "type": "string"
+    },
+    "apellidom": {
+      "type": "string"
+    },
+    "sexo": {
+      "type": "string"
+    },
+    "edad": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "user": {
+      "type": "string"
+    },
+    "pass": {
+      "type": "string"
+    }
+  }
+}
