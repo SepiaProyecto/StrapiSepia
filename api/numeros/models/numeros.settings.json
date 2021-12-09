@@ -12,10 +12,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "nombreespanol": {
-      "type": "string"
-    },
-    "nombremixteco": {
+    "nombre": {
       "type": "string"
     },
     "nivel": {
