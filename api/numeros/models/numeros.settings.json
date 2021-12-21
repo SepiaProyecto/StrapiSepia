@@ -13,55 +13,60 @@
   "pluginOptions": {},
   "attributes": {
     "nombre": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "nivel": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "imagen": {
       "collection": "file",
       "via": "related",
       "allowedTypes": [
-        "images",
         "files",
+        "images",
         "videos"
       ],
       "plugin": "upload",
-      "required": false,
+      "required": true,
       "pluginOptions": {}
     },
     "audio": {
       "collection": "file",
       "via": "related",
       "allowedTypes": [
-        "images",
         "files",
+        "images",
         "videos"
       ],
       "plugin": "upload",
-      "required": false,
+      "required": true,
       "pluginOptions": {}
     },
     "valor2": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "valor3": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "valor1": {
-      "type": "string"
-    },
-    "textok": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "pregunta1": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "pregunta2": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "pregunta3": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }

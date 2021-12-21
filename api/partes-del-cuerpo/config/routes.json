@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/partes-del-cuerpos",
+      "handler": "partes-del-cuerpo.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/partes-del-cuerpos/count",
+      "handler": "partes-del-cuerpo.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/partes-del-cuerpos/:id",
+      "handler": "partes-del-cuerpo.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/partes-del-cuerpos",
+      "handler": "partes-del-cuerpo.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/partes-del-cuerpos/:id",
+      "handler": "partes-del-cuerpo.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/partes-del-cuerpos/:id",
+      "handler": "partes-del-cuerpo.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

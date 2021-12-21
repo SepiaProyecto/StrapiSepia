@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/frutas-y-verduras",
+      "handler": "frutas-y-verduras.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/frutas-y-verduras/count",
+      "handler": "frutas-y-verduras.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/frutas-y-verduras/:id",
+      "handler": "frutas-y-verduras.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/frutas-y-verduras",
+      "handler": "frutas-y-verduras.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/frutas-y-verduras/:id",
+      "handler": "frutas-y-verduras.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/frutas-y-verduras/:id",
+      "handler": "frutas-y-verduras.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
