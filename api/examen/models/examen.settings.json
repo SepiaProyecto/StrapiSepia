@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "examen",
+  "info": {
+    "name": "Examen"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "valor1": {
+      "type": "string"
+    },
+    "valor2": {
+      "type": "string"
+    },
+    "valor3": {
+      "type": "string"
+    },
+    "nombre": {
+      "type": "string"
+    },
+    "pregunta1": {
+      "type": "string"
+    },
+    "pregunta2": {
+      "type": "string"
+    },
+    "pregunta3": {
+      "type": "string"
+    }
+  }
+}
