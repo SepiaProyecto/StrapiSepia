@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/necesidades",
+      "handler": "necesidades.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/necesidades/count",
+      "handler": "necesidades.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/necesidades/:id",
+      "handler": "necesidades.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/necesidades",
+      "handler": "necesidades.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/necesidades/:id",
+      "handler": "necesidades.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/necesidades/:id",
+      "handler": "necesidades.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
