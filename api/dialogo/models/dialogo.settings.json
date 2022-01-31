@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dialogos",
+  "info": {
+    "name": "dialogo"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "emisor": {
+      "type": "string"
+    },
+    "receptor": {
+      "type": "string"
+    },
+    "numdialogo": {
+      "type": "string"
+    },
+    "orden": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/dialogos",
+      "handler": "dialogo.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/dialogos/count",
+      "handler": "dialogo.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/dialogos/:id",
+      "handler": "dialogo.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/dialogos",
+      "handler": "dialogo.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/dialogos/:id",
+      "handler": "dialogo.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/dialogos/:id",
+      "handler": "dialogo.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

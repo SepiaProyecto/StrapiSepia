@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/dialognivel-3-s",
+      "handler": "dialognivel3.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/dialognivel-3-s/count",
+      "handler": "dialognivel3.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/dialognivel-3-s/:id",
+      "handler": "dialognivel3.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/dialognivel-3-s",
+      "handler": "dialognivel3.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/dialognivel-3-s/:id",
+      "handler": "dialognivel3.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/dialognivel-3-s/:id",
+      "handler": "dialognivel3.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
