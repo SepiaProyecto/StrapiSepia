@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "usersepias",
+  "collectionName": "usuariosepias",
   "info": {
-    "name": "usersepia",
-    "description": ""
+    "name": "usuariosepia"
   },
   "options": {
     "increments": true,
@@ -15,10 +14,10 @@
     "nombre": {
       "type": "string"
     },
-    "apellidopXD": {
+    "apellidopaterno": {
       "type": "string"
     },
-    "apellidom": {
+    "apellidomaterno": {
       "type": "string"
     },
     "sexo": {
@@ -27,13 +26,13 @@
     "edad": {
       "type": "string"
     },
-    "email": {
+    "usuario": {
       "type": "string"
     },
-    "user": {
+    "contrasena": {
       "type": "string"
     },
-    "pass": {
+    "correo": {
       "type": "string"
     }
   }
