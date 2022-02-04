@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/futurotyens",
+      "handler": "futurotyen.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/futurotyens/count",
+      "handler": "futurotyen.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/futurotyens/:id",
+      "handler": "futurotyen.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/futurotyens",
+      "handler": "futurotyen.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/futurotyens/:id",
+      "handler": "futurotyen.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/futurotyens/:id",
+      "handler": "futurotyen.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

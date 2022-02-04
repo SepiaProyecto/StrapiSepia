@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pronombres",
+      "handler": "pronombres.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pronombres/count",
+      "handler": "pronombres.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pronombres/:id",
+      "handler": "pronombres.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/pronombres",
+      "handler": "pronombres.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pronombres/:id",
+      "handler": "pronombres.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pronombres/:id",
+      "handler": "pronombres.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

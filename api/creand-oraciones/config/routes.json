@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/creand-oraciones",
+      "handler": "creand-oraciones.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/creand-oraciones/count",
+      "handler": "creand-oraciones.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/creand-oraciones/:id",
+      "handler": "creand-oraciones.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/creand-oraciones",
+      "handler": "creand-oraciones.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/creand-oraciones/:id",
+      "handler": "creand-oraciones.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/creand-oraciones/:id",
+      "handler": "creand-oraciones.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

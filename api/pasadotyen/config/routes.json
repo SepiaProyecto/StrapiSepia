@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pasadotyens",
+      "handler": "pasadotyen.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pasadotyens/count",
+      "handler": "pasadotyen.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pasadotyens/:id",
+      "handler": "pasadotyen.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/pasadotyens",
+      "handler": "pasadotyen.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pasadotyens/:id",
+      "handler": "pasadotyen.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pasadotyens/:id",
+      "handler": "pasadotyen.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

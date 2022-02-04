@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pasadoues",
+      "handler": "pasadoue.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pasadoues/count",
+      "handler": "pasadoue.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pasadoues/:id",
+      "handler": "pasadoue.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/pasadoues",
+      "handler": "pasadoue.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pasadoues/:id",
+      "handler": "pasadoue.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pasadoues/:id",
+      "handler": "pasadoue.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

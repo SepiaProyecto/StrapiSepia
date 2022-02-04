@@ -1,0 +1,71 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pasadotyens",
+  "info": {
+    "name": "Pasadotyen"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string",
+      "required": true
+    },
+    "nivel": {
+      "type": "string",
+      "required": true
+    },
+    "imagen": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "audio": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "pregunta1": {
+      "type": "string",
+      "required": true
+    },
+    "valor1": {
+      "type": "string",
+      "required": true
+    },
+    "pregunta2": {
+      "type": "string",
+      "required": true
+    },
+    "valor2": {
+      "type": "string",
+      "required": true
+    },
+    "pregunta3": {
+      "type": "string",
+      "required": true
+    },
+    "valor3": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

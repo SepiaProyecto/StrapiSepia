@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/presentetyens",
+      "handler": "presentetyen.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/presentetyens/count",
+      "handler": "presentetyen.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/presentetyens/:id",
+      "handler": "presentetyen.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/presentetyens",
+      "handler": "presentetyen.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/presentetyens/:id",
+      "handler": "presentetyen.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/presentetyens/:id",
+      "handler": "presentetyen.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

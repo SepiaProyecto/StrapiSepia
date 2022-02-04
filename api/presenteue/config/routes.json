@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/presenteues",
+      "handler": "presenteue.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/presenteues/count",
+      "handler": "presenteue.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/presenteues/:id",
+      "handler": "presenteue.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/presenteues",
+      "handler": "presenteue.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/presenteues/:id",
+      "handler": "presenteue.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/presenteues/:id",
+      "handler": "presenteue.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
