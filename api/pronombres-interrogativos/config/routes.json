@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pronombres-interrogativos",
+      "handler": "pronombres-interrogativos.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pronombres-interrogativos/count",
+      "handler": "pronombres-interrogativos.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pronombres-interrogativos/:id",
+      "handler": "pronombres-interrogativos.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/pronombres-interrogativos",
+      "handler": "pronombres-interrogativos.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pronombres-interrogativos/:id",
+      "handler": "pronombres-interrogativos.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pronombres-interrogativos/:id",
+      "handler": "pronombres-interrogativos.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
