@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/crearpreguntas",
+      "handler": "crearpreguntas.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/crearpreguntas/count",
+      "handler": "crearpreguntas.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/crearpreguntas/:id",
+      "handler": "crearpreguntas.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/crearpreguntas",
+      "handler": "crearpreguntas.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/crearpreguntas/:id",
+      "handler": "crearpreguntas.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/crearpreguntas/:id",
+      "handler": "crearpreguntas.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/respuestas-comunes",
+      "handler": "respuestas-comunes.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/respuestas-comunes/count",
+      "handler": "respuestas-comunes.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/respuestas-comunes/:id",
+      "handler": "respuestas-comunes.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/respuestas-comunes",
+      "handler": "respuestas-comunes.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/respuestas-comunes/:id",
+      "handler": "respuestas-comunes.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/respuestas-comunes/:id",
+      "handler": "respuestas-comunes.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
