@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/futuroues",
+      "handler": "futuroue.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/futuroues/count",
+      "handler": "futuroue.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/futuroues/:id",
+      "handler": "futuroue.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/futuroues",
+      "handler": "futuroue.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/futuroues/:id",
+      "handler": "futuroue.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/futuroues/:id",
+      "handler": "futuroue.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
